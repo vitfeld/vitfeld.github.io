@@ -66,7 +66,9 @@ body {
 
 /* Padding for spacing */
 .mypage {
+  clear: left;
   padding-top: 2rem;
+  display:block;
 }
 
 
@@ -113,7 +115,7 @@ body {
   border-bottom-color: #fff;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 30em) {
   .masthead-brand {
     float: left;
   }
